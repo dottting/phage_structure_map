@@ -10,7 +10,7 @@ PDB files and alignment can be downloaded [here](https://drive.google.com/drive/
 
 At the end we have a plot showing the similarity of phages, based on their protein structures.
 
-View the interactive plot [`data/phage_PCA_interactive.html`](data/phage_PCA_interactive.html) in your browser, or in the Jupyter Notebook.
+View the interactive plot [`data/phage_PCA_interactive.html`](data/phage_PCA_interactive.html) [here](https://dottting.github.io/phage_structure_map/data/phage_PCA_interactive.html), or in the Jupyter Notebook.
 
 <img src="./data/phageMap.png" width="700">
 
