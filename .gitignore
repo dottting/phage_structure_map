@@ -1,0 +1,6 @@
+irrelevant/
+*.tar.gz
+data/foldseek_allvsall.tsv
+BASEL_data/colabfold
+BASEL_data/*.gz
+BASEL_data/alignment.tsv
