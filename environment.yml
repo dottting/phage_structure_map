@@ -24,6 +24,7 @@ dependencies:
   - executing=2.2.1=pyhd8ed1ab_0
   - fonttools=4.60.1=pyh7db6752_0
   - freetype=2.14.1=ha770c72_0
+  - hdbscan=0.8.39=py314hc02f841_1
   - importlib-metadata=8.7.0=pyhe01879c_1
   - ipykernel=7.1.0=pyha191276_0
   - ipython=9.6.0=pyhfa0c392_0
@@ -126,6 +127,7 @@ dependencies:
   - wcwidth=0.2.14=pyhd8ed1ab_0
   - xorg-libxau=1.0.12=hb9d3cd8_0
   - xorg-libxdmcp=1.1.5=hb9d3cd8_0
+  - yellowbrick=1.4=pyhd8ed1ab_0
   - zeromq=4.3.5=h387f397_9
   - zipp=3.23.0=pyhd8ed1ab_0
   - zlib-ng=2.2.5=hde8ca8f_0
