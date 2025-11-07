@@ -10,9 +10,22 @@ PDB files and alignment can be downloaded [here](https://drive.google.com/drive/
 
 At the end we have a plot showing the similarity of phages, based on their protein structures.
 
-View the interactive plot [`data/phage_PCA_interactive.html`](data/phage_PCA_interactive.html) [here](https://dottting.github.io/phage_structure_map/data/phage_PCA_interactive.html), or in the Jupyter Notebook.
+View the interactive plot [`data/phage_PCA_interactive.html`](data/phage_PCA_interactive.html) [here](https://dottting.github.io/phage_structure_map/data/phage_PCA_interactive.html), or in the Jupyter Notebook [`plot.ipynb`](notebooks/plot.ipynb).
 
 <img src="./data/phageMap.png" width="700">
+
+## Analysis
+
+The [`analysis`](notebooks/analysis.ipynb) notebook gives a basis for furhter investigation for clusters of interest. See [`plot`](notebooks/plot.ipynb) for cluster ids.
+
+This notebook:
+
+- Fetches accessions in the selected cluster(s), optionally outputs a .txt file of them.
+- Searches for alignments between proteins within the cluster(s), from the all vs all foldseek alignment.
+- Builds a protein-protein graph (can be stored seperately), and detects communities within it.
+- Creates a dentrogram tree based on Jaccard similarity
+
+<img src="./data/dendrogram_cluster4.png" width="700">
 
 # Usage
 
@@ -38,4 +51,5 @@ Otherwise, make sure you have the following files:
 Then,
 
 1. Run [`notebooks/data.ipynb`](notebooks/data.ipynb) which handles metadata and calculates PCA.
-2. Run [`notebooks/plot.ipynb`](notebooks/data.ipynb) to plot PCA resuts, with a static and interactive plot.
+2. Run [`notebooks/plot.ipynb`](notebooks/plot.ipynb) to plot PCA resuts, with a static and interactive plot.
+3. Run [`notebooks/analysis.ipynb`](notebooks/analysis.ipynb), to investigate clusters of interest.
