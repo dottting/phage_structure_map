@@ -16,7 +16,7 @@ View the interactive plot [`data/phage_PCA_interactive.html`](data/phage_PCA_int
 
 ## Analysis
 
-The [`analysis`](notebooks/analysis.ipynb) notebook gives a basis for furhter investigation for clusters of interest. See [`plot`](notebooks/plot.ipynb) for cluster ids.
+The [`analysis`](notebooks/analysis.ipynb) notebook gives a basis for furhter investigation for clusters of interest. See [`plot`](notebooks/plot.ipynb) or [here](data/map_clusters.png) for cluster ids.
 
 This notebook:
 
